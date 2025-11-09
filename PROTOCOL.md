@@ -28,7 +28,7 @@ This protocol provides low-latency voice communication over UDP with an in-band 
 - **Decoding**: Enhancer enabled
 - **Wire format**: Raw Speex encoded bytes (no framing header)
 - **Frame interval**: 20 ms
-- **Usage scenario**: Intended only for direct panel-to-panel links; PRTP control bytes are not injected while Speex is active, so button/LED control traffic will not reach the intercom matrix in this mode (even if ).
+- **Usage scenario**: Intended only for direct panel-to-panel links; PRTP control bytes are not injected while Speex is active, so button/LED control traffic will not reach the intercom matrix in this mode (Speex not supported on the old intercom matrices anyways).
 
 #### 2. G.711 Custom Variant
 
